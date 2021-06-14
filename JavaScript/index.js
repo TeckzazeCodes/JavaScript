@@ -3,6 +3,10 @@ console.log("Hello world");
 var myName = "My name is \"Balakrishna\""
 document.write(myName);
 
-var ourArray = ['J', 'B']
-ourArray.shift()
-ourArray.unshift('N')
+function TrueFalse(Truebruh) {
+    if (Truebruh) {
+        return "Yes it is true"
+    }
+    return "No it isn't true"
+}
+console.log(TrueFalse(true))
